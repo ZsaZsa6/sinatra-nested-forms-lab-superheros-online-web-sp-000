@@ -1,15 +1,15 @@
 
 <div class="team">
-  <h1>Team Name: <%= @team.name %></h1><br>
-  <h2>:Team Motto: <%= @team.motto %></h2><br>
+  <h1><%= @team.name %></h1><br>
+  <h2>Team Motto: <%= @team.motto %></h2><br>
 
 </div><br>
 
 <h1>Hero 1</h1>
 <% @team_members.each.with_index do || %>
   <div class="super_hero">
-    <p>Hero's Name: <%= ship.name %></p><br>
-    <p>Hero's Power: <%=  %></p><br>
-    <p>Booty: <%= ship.booty %></p>
+    <p>Hero Name: <%= ship.name %></p><br>
+    <p>Hero Power: <%=  %></p><br>
+    <p>Hero Biography: <%= ship.booty %></p>
   </div><br>
 <% end %>
