@@ -11,3 +11,4 @@ class SuperHero
     @bio   = opts[:bio]
     self.save
   end
+end
