@@ -1,6 +1,6 @@
 class SuperHero
   attr_accessor :name, :power, :bio
-
+  @@all = []
   def self.all
     @@all ||= []
   end
