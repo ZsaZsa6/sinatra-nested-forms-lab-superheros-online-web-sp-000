@@ -1,11 +1,10 @@
 
-<div class="team">
   <h1><%= @team.name %></h1><br>
   <h2>Team Motto: <%= @team.motto %></h2><br>
 
-</div><br>
 
-<h1>Hero 1</h1>
+
+
 <% @team_members.each.with_index do |hero, index | %>
     <h2>Hero Name: <%= hero_name[index] %></h2>
     <p>
